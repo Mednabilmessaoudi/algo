@@ -1,0 +1,12 @@
+var text = "hello im nabil y   . ";
+var M = 0;
+var chart = 0
+for (var i = 0; i < text.length; i++)
+if (text[i]== " "){
+  M = M+1
+
+  }
+
+chart = text.length - M
+console.log("this is the number of the whitespace : " + M);
+console.log("this is the number of the charactere : " + chart)
